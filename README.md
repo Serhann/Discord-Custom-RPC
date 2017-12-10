@@ -1,8 +1,8 @@
-###Discord Custom RPC
+### Discord Custom RPC
 
 RPC yapmasını kolaylaştıran bir uygulama.
 
-##Nasıl çalışır?
+## Nasıl çalışır?
 
 Çalıştırmak için öncelikle aşağıdaki işlemleri yapmalısınız.
 
