@@ -1,10 +1,10 @@
-const { Client } = require("discord-rpc");
-const { app } = require("./config.json");
+const { Client } = require('discord-rpc');
+const { app } = require('./config.json');
 
 const rpc = new Client({ transport: app.transport });
 
-rpc.on("ready", () => {
-  console.log("RPC ready!");
+rpc.on('ready', () => {
+  console.log('RPC ready!');
 
   rpc.setActivity({
     details: app.details,
