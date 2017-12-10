@@ -1,1 +1,1 @@
-npm run
+npm run app
