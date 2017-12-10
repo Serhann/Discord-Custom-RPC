@@ -2,6 +2,8 @@
 
 # Discord Custom RPC
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Serhann/Discord-Custom-RPC.svg)](https://greenkeeper.io/)
+
 RPC yapmasını kolaylaştıran bir uygulama.
 
 ## Nasıl çalışır?
