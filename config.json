@@ -1,0 +1,11 @@
+{
+    "app": {
+        "id": "",
+        "transport": "ipc",
+        "details": "",
+        "largeImageKey": "",
+        "largeImageText": "",
+        "smallImageKey": "",
+        "smallImageText": ""
+    }
+}
