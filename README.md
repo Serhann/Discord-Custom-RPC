@@ -1,4 +1,4 @@
-### Discord Custom RPC
+# Discord Custom RPC
 
 RPC yapmasını kolaylaştıran bir uygulama.
 
