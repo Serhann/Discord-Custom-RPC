@@ -7,7 +7,7 @@ RPC yapmasını kolaylaştıran bir uygulama.
 **Discord içi görünüm:**
 ![Görünüm](http://serhan.pw/galeri/Discord-Custom-RPC.png)
 
-## Gerekli Şeyler
+## Gerekli olan programlar vb
   - NodeJS >=8
   - npm (>=5)
   - Discord (herhangi bir versiyon)
@@ -21,4 +21,4 @@ RPC yapmasını kolaylaştıran bir uygulama.
   - "Enable Rich Presence"'e basın,
   - Altta açılan yerden "large" (büyük) ve "small" (küçük) olacak şekilde iki fotoğraf yükleyin,
   - Ardından config.json dosyasından ayarlarınızı yapın,
-  - Ayarları yaptıktan sonra "baslat.bat" ile uygulamayı başlatın.
+  - Ayarları yaptıktan sonra "start.bat" ile uygulamayı başlatın.
