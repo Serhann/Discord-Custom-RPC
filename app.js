@@ -1,5 +1,5 @@
 const { Client } = require('discord-rpc')
-const { app, settings } = require('./config.json')
+const { app, settings } = require('./config')
 
 const rpc = new Client({ transport: app.transport })
 
