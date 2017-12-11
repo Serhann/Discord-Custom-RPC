@@ -11,7 +11,7 @@ rpc.on('ready', () => {
     });
 });
 
-async function setActivity (details, state, largeImageKey, largeImageText, smallImageKey, smallImageText) {
+async function setActivity(details, state, largeImageKey, largeImageText, smallImageKey, smallImageText) {
   console.log('Setting RPC...');
   makeControls()
     .then(() => {
