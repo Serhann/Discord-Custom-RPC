@@ -4,6 +4,9 @@
 # Discord Custom RPC
 RPC yapmasını kolaylaştıran bir uygulama.
 
+**Display your current Spotify song on Discord using the RPC API:**
+![Görünüm](http://serhan.pw/galeri/Discord-Custom-RPC.png)
+
 ## Gerekli Şeyler
   - NodeJS >=8
   - npm (>=5)
