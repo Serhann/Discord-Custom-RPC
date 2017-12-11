@@ -1,7 +1,7 @@
 {
   "name": "discord-custom-rpc",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "easy rpc for discord",
   "main": "app.js",
   "scripts": {
     "app": "npm install && node app.js",
