@@ -29,7 +29,7 @@ async function makeControls() {
   if (settings.delay < 60000) {
     throw "Minimum delay: 60000"; 
   }
-  if (app.id === "" || app.transport === "" || app.details === "") {
+  if (app.id === "" || app.transport === "" || app.details === "" || app.state === "") {
     throw "Missing variable(s)";
   }
   if (app.largeImageKey === "" || app.largeImageText === "" || app.smallImageKey === "" || app.smallImageText === "") {
