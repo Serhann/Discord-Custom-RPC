@@ -23,7 +23,7 @@ async function setActivity (details, state, largeImageKey, largeImageText, small
   setTimeout(() => {
     setActivity(app.details, app.state, app.largeImageKey, app.largeImageText, app.smallImageKey, app.smallImageText);
   }, settings.delay);
-};
+}
 
 async function makeControls() {
   if (settings.delay < 60000) {
@@ -35,7 +35,7 @@ async function makeControls() {
   if (app.largeImageKey === "" || app.largeImageText === "" || app.smallImageKey === "" || app.smallImageText === "") {
     throw "Missing variable(s)";
   };
-};
+}
 
 rpc.login(app.id).catch((error) => {
   throw error.message;
