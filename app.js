@@ -11,7 +11,7 @@ rpc.on('ready', () => {
     })
 })
 
-async function setActivity(details, state, largeImageKey, largeImageText, smallImageKey, smallImageText) {
+async function setActivity (details, state, largeImageKey, largeImageText, smallImageKey, smallImageText) {
   console.log('Setting RPC...')
   makeControls()
     .then(() => {
@@ -25,7 +25,7 @@ async function setActivity(details, state, largeImageKey, largeImageText, smallI
   }, settings.delay)
 }
 
-async function makeControls() {
+async function makeControls () {
   if (settings.delay < 60000) throw 'Minimum delay: 60000'
   if (app.id === undefined || app.transport === undefined || app.details === undefined) throw 'Missing variable(s)'
   if (app.largeImageKey === undefined || app.largeImageText === undefined || app.smallImageKey === undefined || app.smallImageText === undefined) throw 'Missing variable(s)'
