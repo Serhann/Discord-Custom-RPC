@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "app": "npm install && node app.js",
-    "test": "npm install && exit 1"
+    "test": "npm install && exit 0"
   },
   "repository": {
     "type": "git",
