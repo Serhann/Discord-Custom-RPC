@@ -9,7 +9,7 @@ rpc.on('ready', () => {
       console.log('RPC ready!');
       setActivity(app.details, app.state, app.largeImageKey, app.largeImageText, app.smallImageKey, app.smallImageText);
     });
-})
+});
 
 async function setActivity (details, state, largeImageKey, largeImageText, smallImageKey, smallImageText) {
   console.log('Setting RPC...');
@@ -37,6 +37,6 @@ async function makeControls() {
   }
 }
 
-rpc.login(app.id).catch(error => {
+rpc.login(app.id).catch((error) => {
   throw error.message;
 });
