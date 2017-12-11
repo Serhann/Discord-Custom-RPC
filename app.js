@@ -1,14 +1,14 @@
 const { Client } = require('discord-rpc');
 const { app, settings } = require('./config');
 
-const rpc = new Client({ transport: app.transport })
+const rpc = new Client({ transport: app.transport });
 
 rpc.on('ready', () => {
   makeControls()
     .then(() => {
       console.log('RPC ready!');
       setActivity(app.details, app.state, app.largeImageKey, app.largeImageText, app.smallImageKey, app.smallImageText);
-    })
+    });
 })
 
 async function setActivity (details, state, largeImageKey, largeImageText, smallImageKey, smallImageText) {
@@ -21,11 +21,11 @@ async function setActivity (details, state, largeImageKey, largeImageText, small
         })
     })
   setTimeout(() => {
-    setActivity(app.details, app.state, app.largeImageKey, app.largeImageText, app.smallImageKey, app.smallImageText)
-  }, settings.delay)
+    setActivity(app.details, app.state, app.largeImageKey, app.largeImageText, app.smallImageKey, app.smallImageText);
+  }, settings.delay);
 }
 
-async function makeControls () {
+async function makeControls() {
   if (settings.delay < 60000) {
     throw "Minimum delay: 60000"; 
   }
