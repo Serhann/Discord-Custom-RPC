@@ -1,8 +1,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c6ac0878fcd549999a249c4b7283bc0f)](https://www.codacy.com/app/serhanpw/Discord-Custom-RPC?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Serhann/Discord-Custom-RPC&amp;utm_campaign=Badge_Grade)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Serhann/Discord-Custom-RPC.svg)](https://greenkeeper.io/)
 
 # Discord Custom RPC
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/Serhann/Discord-Custom-RPC.svg)](https://greenkeeper.io/)
 
 RPC yapmasını kolaylaştıran bir uygulama.
 
