@@ -18,24 +18,24 @@ async function setActivity (details, state, largeImageKey, largeImageText, small
       rpc.setActivity({ details, state, largeImageKey, largeImageText, smallImageKey, smallImageText })
         .then(() => {
           console.log('RPC is 👌');
-        })
-    })
+        });
+    });
   setTimeout(() => {
     setActivity(app.details, app.state, app.largeImageKey, app.largeImageText, app.smallImageKey, app.smallImageText);
   }, settings.delay);
-}
+};
 
 async function makeControls() {
   if (settings.delay < 60000) {
     throw "Minimum delay: 60000"; 
-  }
+  };
   if (app.id === "" || app.transport === "" || app.details === "") {
     throw "Missing variable(s)";
-  }
+  };
   if (app.largeImageKey === "" || app.largeImageText === "" || app.smallImageKey === "" || app.smallImageText === "") {
     throw "Missing variable(s)";
-  }
-}
+  };
+};
 
 rpc.login(app.id).catch((error) => {
   throw error.message;
