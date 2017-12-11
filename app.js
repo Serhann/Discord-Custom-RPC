@@ -29,12 +29,12 @@ async function makeControls () {
   if (settings.delay < 60000) {
     throw "Minimum delay: 60000"; 
   }
-  if (app.id === undefined || app.transport === undefined || app.details === undefined) {
+  if (app.id === "" || app.transport === "" || app.details === "") {
     throw "Missing variable(s)";
   }
-  if (app.largeImageKey === undefined || app.largeImageText === undefined || app.smallImageKey === undefined || app.smallImageText === undefined) {
-    throw "Missing variable(s)"
+  if (app.largeImageKey === "" || app.largeImageText === "" || app.smallImageKey === "" || app.smallImageText === "") {
+    throw "Missing variable(s)";
   }
 }
 
-rpc.login(app.id).catch(console.error);
+rpc.login(app.id).catch(Console.error);
