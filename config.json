@@ -3,6 +3,7 @@
         "id": "",
         "transport": "ipc",
         "details": "",
+        "state": "",
         "largeImageKey": "",
         "largeImageText": "",
         "smallImageKey": "",
