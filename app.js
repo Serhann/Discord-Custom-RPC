@@ -37,4 +37,6 @@ async function makeControls () {
   }
 }
 
-rpc.login(app.id).catch(Console.error);
+rpc.login(app.id).catch(error => {
+  throw error.message;
+});
