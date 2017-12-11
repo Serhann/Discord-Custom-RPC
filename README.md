@@ -13,9 +13,9 @@ RPC yapmasını kolaylaştıran bir uygulama.
 ## Nasıl çalışır?
   Çalıştırmak için öncelikle aşağıdaki işlemleri yapmalısınız.
   
-  1 https://discordapp.com/developers/applications/me adresine girin,
-  2 Bir "Application" (bot) oluşturun. (Discord'da "<bot ismi> Oynuyor" şeklinde gözükecektir),
-  3 "Enable Rich Presence"'e basın,
-  4 Altta açılan yerden "large" (büyük) ve "small" (küçük) olacak şekilde iki fotoğraf yükleyin,
-  5 Ardından config.json dosyasından ayarlarınızı yapın,
-  6 Ayarları yaptıktan sonra "baslat.bat" ile uygulamayı başlatın.
+  1- https://discordapp.com/developers/applications/me adresine girin,
+  2- Bir "Application" (bot) oluşturun. (Discord'da "<bot ismi> Oynuyor" şeklinde gözükecektir),
+  3- "Enable Rich Presence"'e basın,
+  4- Altta açılan yerden "large" (büyük) ve "small" (küçük) olacak şekilde iki fotoğraf yükleyin,
+  5- Ardından config.json dosyasından ayarlarınızı yapın,
+  6- Ayarları yaptıktan sonra "baslat.bat" ile uygulamayı başlatın.
