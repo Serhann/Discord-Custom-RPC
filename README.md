@@ -24,3 +24,15 @@ RPC yapmasını kolaylaştıran bir uygulama.
   - Altta açılan yerden "large" (büyük) ve "small" (küçük) olacak şekilde iki fotoğraf yükleyin,
   - Ardından config.json dosyasından ayarlarınızı yapın,
   - Ayarları yaptıktan sonra "start.bat" ile uygulamayı başlatın.
+  
+  ## Config'dekilerin açıklamaları
+  
+  - "id": oluşturduğumuz botun ID numarası,
+  - "transport": transport tipi. (Varsayılan: ipc)
+  - "details": ilk satırda çıkacak olan yazı,
+  - "state": ikinci satırda çıkacak olan yazı,
+  - "largeImageKey": large (büyük) olarak yüklediğimiz resme koyduğumuz ad,
+  - "largeImageText": large (büyük) olarak yüklediğimiz resmin üstüne imleç getirince çıkacak yazı,
+  - "smallImageKey": small olarak yüklediğimiz resme koyduğumuz ad,
+  - "smallImageText": small (küçük) olarak yüklediğimiz resmin üstüne imleç getirince çıkacak yazı,
+  - "delay": Kaç dakikada bir RPC ayarlarımızın Discord'a gönderileceği. (cinsi ms (milisaniye)'dir)
