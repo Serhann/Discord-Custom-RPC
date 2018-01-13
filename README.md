@@ -7,7 +7,7 @@
 RPC yapmasını kolaylaştıran bir uygulama.
 
 **Discord içi görünüm:**
-![Görünüm](http://serhan.pw/galeri/Discord-Custom-RPC.png) 
+![Görünüm](http://serhan.pw/galeri/Discord-Custom-RPC.png)
 
 ## Gerekli olan programlar vb
   - NodeJS >=8
