@@ -37,6 +37,6 @@ async function makeControls() {
   }
 }
 
-rpc.login(app.id).catch((error) => {
+rpc.login({ clientId: app.id }).catch((error) => {
   throw error.message;
 });
